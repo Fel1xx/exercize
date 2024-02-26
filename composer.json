@@ -1,0 +1,19 @@
+{
+    "name": "nikolay/entry_challenge",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nikolay\\EntryChallenge\\": "src/",
+            "Nikolay\\EntryChallengeTest\\": "tests/unit"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikolay Buslaev",
+            "email": "nikolay@buslaev.me"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
